@@ -145,6 +145,9 @@ Useful ``config`` Examples
 ``ad=spdif:ac3,spdif:dts``
  SPDIF passthrough for AC3 and DTS
 
+``ao=wasapi:exclusive``
+ Requests exclusive, direct hardware access, required for SPDIF passthrough on Windows
+
 ``lavcac3enc=yes:640:6``
  Converts 6 channel (non AC3/DTS) audio to AC3 and sends to SPDIF
 
