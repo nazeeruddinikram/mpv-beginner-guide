@@ -203,5 +203,5 @@ Useful ``plugin_osc.conf`` Examples
 ``boxalpha=255``
  Make OSC completely transparent, default is 80
 
-``valign=0.8``
+``valign=1``
  Vertical alignment, default is 0.8
