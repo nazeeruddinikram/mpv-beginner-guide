@@ -2,7 +2,8 @@
 Quick-Start Guide
 =================
 This is a quick-start guide for beginners to get mpv up and
-running on your particular setup.
+running on your particular setup. For a more exhaustive guide please refer to the `manual. <https://github.com/mpv-player/mpv/tree/master/DOCS/man/en/mpv.rst>`_
+
 
 =============
 Using the OSC
@@ -123,9 +124,17 @@ Option                  Configuration file entry
 
 Useful ``config`` Examples
 --------------------------
+All options are available in `options.rst <https://github.com/mpv-player/mpv/tree/master/DOCS/man/en/options.rst>`_
+
+
 
 Useful ``input.conf`` Examples
 ------------------------------
+All key bindings are available in  `input.rst <https://github.com/mpv-player/mpv/tree/master/DOCS/man/en/input.rst>`_
+
+
+``kp9 cycle_values window-scale 0.5 1 2`` - Switch between 1/2, full, and double window size
 
 Useful ``plugin_osc.conf`` Examples
 -----------------------------------
+All OSC options are available in  `ost.rst <https://github.com/mpv-player/mpv/tree/master/DOCS/man/en/ost.rst>`_
