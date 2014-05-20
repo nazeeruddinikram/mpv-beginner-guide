@@ -190,8 +190,8 @@ Useful ``input.conf`` Examples
 **All key bindings are available in**  `input.rst <https://github.com/mpv-player/mpv/tree/master/DOCS/man/en/input.rst>`_
 
 
-``kp9 cycle_values window-scale 0.5 1 2``
- Switch between 1/2, full, and double window size
+``kp0 cycle_values window-scale 0.5 1 2``
+ Switch between 1/2, full, and double window size using numpad 0
 
 Useful ``plugin_osc.conf`` Examples
 -----------------------------------
