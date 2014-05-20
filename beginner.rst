@@ -19,11 +19,9 @@ Some Keyboard Shortcuts
 =======================
 LEFT and RIGHT
     Seek backward/forward 10 seconds. Shift+arrow does a 1 second exact seek
-    (see ``--hr-seek``).
 
 UP and DOWN
     Seek forward/backward 1 minute. Shift+arrow does a 5 second exact seek (see
-    ``--hr-seek``).
 
 < and >
     Go backward/forward in the playlist.
@@ -54,7 +52,7 @@ m
     Cycle through the available audio tracks.
 
 f
-    Toggle fullscreen (see also ``--fs``).
+    Toggle fullscreen
 
     Toggle OSD states: none / seek / seek + timer / seek + timer + total time.
 
@@ -101,14 +99,11 @@ Option                  Configuration file entry
 ``-opt "has spaces"``   ``opt="has spaces"``
 ======================= ========================
 
-==============
-Useful options
-==============
+Useful ``config`` Examples
+--------------------------
 
-===================
-Useful key bindings
-===================
+Useful ``input.conf`` Examples
+------------------------------
 
-==================
-Useful OSC options
-==================
+Useful ``plugin_osc.conf`` Examples
+-----------------------------------
