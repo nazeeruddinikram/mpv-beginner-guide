@@ -124,7 +124,7 @@ Option                  Configuration file entry
 
 Useful ``config`` Examples
 --------------------------
-All options are available in `options.rst <https://github.com/mpv-player/mpv/tree/master/DOCS/man/en/options.rst>`_
+**All options are available in** `options.rst <https://github.com/mpv-player/mpv/tree/master/DOCS/man/en/options.rst>`_
 
 **Video**
 
@@ -187,7 +187,7 @@ All options are available in `options.rst <https://github.com/mpv-player/mpv/tre
 
 Useful ``input.conf`` Examples
 ------------------------------
-All key bindings are available in  `input.rst <https://github.com/mpv-player/mpv/tree/master/DOCS/man/en/input.rst>`_
+**All key bindings are available in**  `input.rst <https://github.com/mpv-player/mpv/tree/master/DOCS/man/en/input.rst>`_
 
 
 ``kp9 cycle_values window-scale 0.5 1 2``
@@ -195,7 +195,7 @@ All key bindings are available in  `input.rst <https://github.com/mpv-player/mpv
 
 Useful ``plugin_osc.conf`` Examples
 -----------------------------------
-All OSC options are available in  `ost.rst <https://github.com/mpv-player/mpv/tree/master/DOCS/man/en/ost.rst>`_
+**All OSC options are available in**  `ost.rst <https://github.com/mpv-player/mpv/tree/master/DOCS/man/en/ost.rst>`_
 
 ``showWindowed=no``
  Disable OSC when windowed
