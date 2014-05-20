@@ -14,9 +14,64 @@ OSC usage instructions can be found `here. <http://puu.sh/3LRh0>`_
 Examples of mpv usage
 =====================
 
-================
-Keyboard Control
-================
+=======================
+Some Keyboard Shortcuts
+=======================
+LEFT and RIGHT
+    Seek backward/forward 10 seconds. Shift+arrow does a 1 second exact seek
+    (see ``--hr-seek``).
+
+UP and DOWN
+    Seek forward/backward 1 minute. Shift+arrow does a 5 second exact seek (see
+    ``--hr-seek``).
+
+< and >
+    Go backward/forward in the playlist.
+
+p / SPACE
+    Pause (pressing again unpauses).
+
+q / ESC
+    Stop playing and quit.
+
+Q
+    Like ``q``, but store the current playback position. Playing the same file
+    later will resume at the old playback position if possible.
+
+\+ and -
+    Adjust audio delay by +/- 0.1 seconds.
+
+9 and 0
+    Decrease/increase volume.
+
+m
+    Mute sound.
+
+\_
+    Cycle through the available video tracks.
+
+\#
+    Cycle through the available audio tracks.
+
+f
+    Toggle fullscreen (see also ``--fs``).
+
+    Toggle OSD states: none / seek / seek + timer / seek + timer + total time.
+
+v
+    Toggle subtitle visibility.
+
+j and J
+    Cycle through the available subtitles.
+
+x and z
+    Adjust subtitle delay by +/- 0.1 seconds.
+
+r and t
+    Move subtitles up/down.
+
+s
+    Take a screenshot.
 
 ============
 Config Files
