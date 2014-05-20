@@ -195,7 +195,7 @@ Useful ``input.conf`` Examples
 
 Useful ``plugin_osc.conf`` Examples
 -----------------------------------
-**All OSC options are available in**  `ost.rst <https://github.com/mpv-player/mpv/tree/master/DOCS/man/en/ost.rst>`_
+**All OSC options are available in**  `osc.rst <https://github.com/mpv-player/mpv/tree/master/DOCS/man/en/osc.rst>`_
 
 ``showWindowed=no``
  Disable OSC when windowed
