@@ -7,13 +7,39 @@ running on your particular setup.
 ============
 Config files
 ============
-mpv mainly uses three configuration files:
- ``config`` - This is where all the options are
- ``input.conf`` - This is where all the key bindings are 
- ``plugin_osc.conf`` - This is where OSC options are
+mpv uses three configuration files:
+
+``config`` - This is where all the options are
+
+``input.conf`` - This is where all the key bindings are 
+
+``plugin_osc.conf`` - This is where all the OSC options are
 
 Location
 --------
-The user-specific config file is in ``~/.mpv/config``. If the file is not there, simply create a plain text file named "config". On Windows it's easiest to create this file in the same location as mpv.exe.
+The user-specific config file is in ``~/.mpv/config``. If the file is not there, simply create a plain text file named "config". On Windows it's easiest to create this file in the same location as mpv.exe. The same goes for other configs as well.
 
+Putting Command Line Options into the Configuration File
+--------------------------------------------------------
 Almost all command line options can be put into the configuration file. Here is a small guide:
+
+======================= ========================
+Option                  Configuration file entry
+======================= ========================
+``--flag``              ``flag``
+``-opt val``            ``opt=val``
+``--opt=val``           ``opt=val``
+``-opt "has spaces"``   ``opt="has spaces"``
+======================= ========================
+
+==============
+Useful options
+==============
+
+===================
+Useful key bindings
+===================
+
+==================
+Useful OSC options
+==================
