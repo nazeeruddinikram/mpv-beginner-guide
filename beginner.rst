@@ -2,7 +2,7 @@
 Quick-Start Guide
 =================
 This is a quick-start guide for beginners to get mpv up and
-running on your particular setup. For a more exhaustive guide please refer to the `manual. <https://github.com/mpv-player/mpv/tree/master/DOCS/man/en/mpv.rst>`_
+running on your particular setup. For a more exhaustive guide please refer to the `manual. <https://github.com/mpv-player/mpv/tree/master/DOCS/man/en>`_
 
 
 =============
@@ -126,15 +126,82 @@ Useful ``config`` Examples
 --------------------------
 All options are available in `options.rst <https://github.com/mpv-player/mpv/tree/master/DOCS/man/en/options.rst>`_
 
+**Video**
 
+``vo=opengl-hq``
+ Enables OpenGL-HQ video output, try ``opengl`` or ``openql-old`` if you experience performance issues
+
+``geometry=50%+50%+50%``
+ Start video in half-size in the middle of the screen 
+
+**Audio**
+
+``volume=100``
+ Set mpv's volume to 100 and use system volume instead
+
+``audio-channels=6``
+ Outputs a 5.1 audio channel layout if possible
+
+``ad=spdif:ac3,spdif:dts``
+ SPDIF passthrough for AC3 and DTS
+
+``lavcac3enc=yes:640:6``
+ Converts 6 channel (non AC3/DTS) audio to AC3 and sends to SPDIF
+
+``alang=jp,jpn,en,eng``
+ Prefer Japanese audio tracks
+
+**Subtitles**
+
+``sub-text-font="MyriadPro-Semibold"``
+ Change subtitle font
+
+``sub-text-font-size=48``
+ Change subtitle size
+
+``slang=eng,en``
+ Prefer english subtitle tracks
+
+**Other Options**
+
+``use-filedir-conf=yes``
+ This overrides the user-config with a config in the file directory
+
+``cache=4000``
+ Increase cache size, useful for slow media
+
+``screenshot-template=/Users/Username/Desktop/mpv-screenshot%n``
+ Saves screenshots to desktop
+
+``save-position-on-quit``
+ Saves file position when quitting normally
+
+``keep-open``
+ Keeps mpv open when file playback has finished
+
+``osd-font="HelveticaNeue-Light"``
+ Change OSD font
+
+``osd-bar=no``
+ Disable the OSD bar
 
 Useful ``input.conf`` Examples
 ------------------------------
 All key bindings are available in  `input.rst <https://github.com/mpv-player/mpv/tree/master/DOCS/man/en/input.rst>`_
 
 
-``kp9 cycle_values window-scale 0.5 1 2`` - Switch between 1/2, full, and double window size
+``kp9 cycle_values window-scale 0.5 1 2``
+ Switch between 1/2, full, and double window size
 
 Useful ``plugin_osc.conf`` Examples
 -----------------------------------
 All OSC options are available in  `ost.rst <https://github.com/mpv-player/mpv/tree/master/DOCS/man/en/ost.rst>`_
+
+``showWindowed=no``
+ Disable OSC when windowed
+
+``boxalpha=255``
+ Make OSC completely transparent, default is 80
+
+``valign=0.8``
+ Vertical alignment, default is 0.8
