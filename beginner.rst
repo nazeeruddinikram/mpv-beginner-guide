@@ -16,8 +16,6 @@ Examples of mpv usage
 File playback:
     ``mpv /path/to/file.mkv``
 
- .. Is this correct? I don't use mpv through terminal so I don't know.
-
 Blu-ray playback:
     ``mpv bd:////path/to/disc``
 
