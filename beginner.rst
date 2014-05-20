@@ -13,10 +13,34 @@ OSC usage instructions can be found `here. <http://puu.sh/3LRh0>`_
 =====================
 Examples of mpv usage
 =====================
+File playback:
+    ``mpv /path/to/file.mkv``
 
-=======================
-Some Keyboard Shortcuts
-=======================
+ .. Is this correct? I don't use mpv through terminal so I don't know.
+
+Blu-ray playback:
+    ``mpv bd:////path/to/disc``
+
+    ``mpv bd:// --bluray-device=/path/to/disc``
+
+Play DVD
+    ``mpv dvd://1``
+
+Play from a different DVD device:
+    ``mpv dvd://1 --dvd-device=/dev/dvd2``
+
+Play DVD video from a directory with VOB files:
+    ``mpv dvd://1 --dvd-device=/path/to/directory/``
+
+Stream from HTTP:
+    ``mpv http://example.com/example.avi``
+
+Stream using RTSP:
+    ``mpv rtsp://server.example.com/streamName``
+
+=========================
+Useful Keyboard Shortcuts
+=========================
 LEFT and RIGHT
     Seek backward/forward 10 seconds. Shift+arrow does a 1 second exact seek
 
